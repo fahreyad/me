@@ -328,10 +328,14 @@ ul { list-style: none; }
   font-weight: 600;
   animation: float 5s ease-in-out infinite;
 }
-.tag-1 { top: 6%; left: 0%; animation-delay: 0s; }
-.tag-2 { top: 18%; right: 0%; animation-delay: 1.2s; }
-.tag-3 { bottom: 14%; left: 4%; animation-delay: 2.4s; }
-.tag-4 { bottom: 2%; right: 10%; animation-delay: 3.6s; }
+.tag-1 { top: 8%; left: 0%; animation-delay: 0s; }
+.tag-2 { top: 20%; right: 0%; animation-delay: 0.7s; }
+.tag-3 { bottom: 16%; left: 4%; animation-delay: 1.4s; }
+.tag-4 { bottom: 4%; right: 10%; animation-delay: 2.1s; }
+.tag-5 { top: 0%; left: 26%; animation-delay: 2.8s; }
+.tag-6 { top: 38%; right: 2%; animation-delay: 3.5s; }
+.tag-7 { bottom: 34%; right: 0%; animation-delay: 4.2s; }
+.tag-8 { bottom: 0%; left: 16%; animation-delay: 4.9s; }
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-14px); }
